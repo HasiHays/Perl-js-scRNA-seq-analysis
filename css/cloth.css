@@ -1,0 +1,63 @@
+
+/* general styles */
+/*----------------tb1----------------can be selected*/
+table.tb1 {font:100% Arial, Helvetica, sans-serif;}
+td.tb1 {font:100% Arial, Helvetica, sans-serif;}
+table.tb1 {width:100%;border-collapse:collapse;margin:1em 0;}
+th.tb1 {text-align:left;padding:.5em;border:1px solid #fff;}
+td.tb1 {text-align:left;padding:.5em;border:1px solid #fff;}
+th.tb1 {background:#328aa4 url(tr_back.gif) repeat-x;color:#fff;}
+td.tb1 {background:#e5f1f4;}
+
+
+
+tr.eventb1 td.tb1{background:#e5f1f4;}
+tr.oddtb1 td.tb1{background:#f8fbfc;}
+
+th.overtb1, tr.eventb1 th.overtb1, tr.oddtb1 th.overtb1{background:#4a98af;}
+th.down, tr.eventb1 th.down, tr.oddtb1 th.down{background:#bce774;}
+th.selected, tr.eventb1 th.selected, tr.oddtb1 th.selected{}
+
+td.overtb1, tr.eventb1 td.overtb1, tr.oddtb1 td.overtb1{background:#ecfbd4;}
+td.down, tr.eventb1 td.down, tr.oddtb1 td.down{background:#bce774;color:#fff;}
+td.selected, tr.eventb1 td.selected, tr.oddtb1 td.selected{background:#bce774;color:#555;}
+
+/* use this if you want to apply different styling to empty table cells*/
+td.empty, tr.oddtb1 td.empty, tr.eventb1 td.empty{background:#e5f1f4;}
+
+
+
+
+/*--------------tb2---------------can not be selected*/
+table.tb2 {font:100% Arial, Helvetica, sans-serif;}
+td.tb2 {font:100% Arial, Helvetica, sans-serif;}
+table.tb2 {width:100%;border-collapse:collapse;margin:1em 0;}
+th.tb2 {text-align:left;padding:.5em;border:1px solid #fff;}
+td.tb2 {text-align:left;padding:.5em;border:1px solid #fff;}
+th.tb2 {background:#328aa4 url(tr_back.gif) repeat-x;color:#fff;}
+td.tb2 {background:#e5f1f4;}
+
+tr.eventb1 td.tb2{background:#e5f1f4;}
+tr.oddtb1 td.tb2{background:#f8fbfc;}
+
+/*--------------tb3---------------na i*/*/
+
+table.tb3 {font:100% Arial, Helvetica, sans-serif;}
+td.tb3 {font:100% Arial, Helvetica, sans-serif;}
+table.tb3 {width:100%;border-collapse:collapse;margin:1em 0;}
+th.tb3 {text-align:left;padding:.5em;border:1px solid #fff;}
+td.tb3 {text-align:left;padding:.5em;border:1px solid #fff;}
+th.tb3 {background:#328aa4 url(tr_back.gif) repeat-x;color:#fff;}
+td.tb3 {background:#e5f1f4;}
+
+tr.eventb1 td.tb3{background:#e5f1f4;}
+tr.oddtb1 td.tb3{background:#e5f1f4;}
+
+
+/*--------------tb4---------------white background*/
+
+th.tb4 {background:#fff url(tr_back.gif) repeat-x;color:#fff;}
+td.tb4 {background:#fff;}
+
+tr.eventb1 td.tb4{background:#fff;}
+tr.oddtb1 td.tb4{background:#fff;}
